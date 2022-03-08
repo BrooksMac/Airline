@@ -62,6 +62,8 @@ public class FlightsTab extends TabBase
 		//**************************************************************************************************************
 		//ADDED BY BROOKS
 		//**************************************************************************************************************
+
+		//Creating the EastPanel and the SouthPanel
 		JPanel eastPanel= createEastPanel();
 		panel.add(eastPanel, BorderLayout.EAST);
 
