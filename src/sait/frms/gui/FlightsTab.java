@@ -12,7 +12,6 @@ import javax.swing.event.*;
 import sait.frms.manager.*;
 import sait.frms.problemdomain.*;
 
-//Here is the flight tab
 
 /**
  * Holds the components for the flights tab.
