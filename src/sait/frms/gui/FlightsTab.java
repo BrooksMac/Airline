@@ -266,7 +266,7 @@ public class FlightsTab extends TabBase
 		constraints.gridy = 1;
 		middlePanel.add (fromJLabel, constraints);
 		
-
+		//loop that calls the loadAirports() method to populate the JComboBox from the airports.csv file
 		ArrayList<String> portCodes = loadAirports();
 		JComboBox<String> fromBox = new JComboBox();
 		for (int i=0; i < portCodes.size(); i++){
@@ -288,7 +288,7 @@ public class FlightsTab extends TabBase
 		constraints.gridy = 2;
 		middlePanel.add(toJLabel, constraints);
 
-
+		//I don't know why this works but it's an alternative to the JComboBox population above, very epico
 		JComboBox<String> toBox = new JComboBox<>(new Vector<>(loadAirports()));
 		constraints.gridy = 2;
 		constraints.gridx = 2;
